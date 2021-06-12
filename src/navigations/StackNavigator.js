@@ -11,15 +11,7 @@ const StackNavigator = () => {
 
     return (
         <Stack.Navigator >
-            <Stack.Screen name="Home" component={Home}
-                options={{
-                    //  headerTitleStyle: { fontFamily: 'Sans', color: textScreenColor, fontSize: 14 },
-                    headerTitleAlign: "center",
-                    //headerStyle: { backgroundColor: screenColor },
-                    //  headerTintColor: textScreenColor,
-                    //   title: langText.Subscription,
-                    //  headerLeft: () => <BackArrow />
-                }} />
+            <Stack.Screen name="Home" component={Home} />
         </Stack.Navigator>
     )
 }
