@@ -1,9 +1,9 @@
 import React from "react"
 import { I18nManager, View, StatusBar, Text } from "react-native"
 
-import { Provider } from "./Context"
-import { ProviderColor } from "./ContextColor"
-import { ProviderAllText } from "./ContextAllText"
+import { Provider } from "./states/Context"
+import { ProviderColor } from "./states/ContextColor"
+import { ProviderAllText } from "./states/ContextAllText"
 
 const App = () => {
   I18nManager.forceRTL(true)
