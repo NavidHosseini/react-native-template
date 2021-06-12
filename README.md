@@ -1,4 +1,4 @@
-# React Native Digital Store Market
+# React Native Template
 
 This is a template for react native with splash screen navigation and etc ... 
 
